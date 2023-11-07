@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Business Development</title>
+</head>
+<body>
+    <div class="Logo">
+        <a href="index.html"><img src="images/MyWebsiteLogo.png" width="110" 
+            height="100"alt=""></a>
+    </div>
+    <div class="top-content">
+    <div class="content">
+    <h1>Business Development</h1>
+    <p class="lead">We are seeking a driven and results-oriented Business Development 
+        professional to join our dynamic team. The ideal candidate will have a proven track 
+        record of identifying and closing new business opportunities, developing strategic partnerships, 
+        and fostering relationships with key stakeholders. They will possess excellent communication and 
+        negotiation skills, as well as a strong understanding of the industry and market trends. The role 
+        requires a self-starter with a strong work ethic and the ability to work independently in a fast-paced 
+        environment. If you are passionate about driving growth and creating value for our company, we encourage you to apply for this exciting opportunity. 
+    </p>
+    <a href="#survey-container">Apply now!</a>
+
+    </div>
+    </div>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Montserrat&display=swap" rel="stylesheet">
+    <div id="survey-container">
+    
+      <h1 class="title" id="title">Job form</h1>
+    
+      <p id="description">Applying!</p>
+    
+      <form id="survey-form">
+    
+        <!-- name -->
+        <label id="name-label" class="row-label" for="name">Name:</label>
+        <input id="name" class="row-input" type="text" placeholder="Enter your name" required>
+    
+        <!-- email -->
+        <label id="email-label" class="row-label" for="email">Email:</label>
+        <input id="email" class="row-input" type="email" placeholder="Enter your email" required>
+    
+        <!-- education dropdown -->
+        <label class="row-label" for="dropdown">Level of education:</label>
+        <select id="dropdown" class="row-input" required>
+          <option disabled selected>Select an option</option>
+          <option value="bachelors-degree">Bachelor's Degree</option>
+          <option value="masters-degree">Master's Degree</option>
+          <option value="phd">Ph.D.</option>
+          <option value="other">Other</option>
+        </select>
+    
+        <!-- years of experience -->
+        <label id="number-label" class="row-label" for="number">Years of experience (optional):</label>
+        <input id="number" class="row-input" type="number" placeholder="Enter number of years of experience" min="0" max="50">
+    
+        <!-- programs checkbox -->
+        <p class="row-label">Known programs:</p>
+    
+        <label class="row-input small" for="box-windows">
+          <input type="checkbox" id="box-windows" name="checkbox" value="windows">
+          <span class="inline-label">Windows</span>
+        </label>
+    
+        <label class="row-input small" for="box-word">
+          <input type="checkbox" id="box-word" name="checkbox" value="word">
+          <span class="inline-label">Salesforce</span>
+        </label>
+    
+        <label class="row-input small" for="box-excel">
+          <input type="checkbox" id="box-excel" name="checkbox" value="excel">
+          <span class="inline-label">HubSpot</span>
+        </label>
+    
+        <label class="row-input small" for="box-powerpoint">
+          <input type="checkbox" id="box-powerpoint" name="checkbox" value="powerpoint">
+          <span class="inline-label">Microsoft Excel</span>
+        </label>
+    
+        <label class="row-input small" for="box-outlook">
+          <input type="checkbox" id="box-outlook" name="checkbox" value="outlook">
+          <span class="inline-label">Microsoft Teams</span>
+        </label>
+    
+        <!-- salary radio -->
+        <p class="row-label">Expected salary:</p>
+    
+        <label class="row-input small" for="below 50,000">
+          <input type="radio" id="below 50,000" name="radio" value="below-3k">
+          <span class="inline-label">Below £50,000</span>
+        </label>
+    
+        <label class="row-input small" for="above 50,000">
+          <input type="radio" id="above 50,000" name="radio" value="3k-4k">
+          <span class="inline-label">Above £50,000</span>
+        </label>
+    
+        <label class="row-input small" for="dont-know">
+          <input type="radio" id="dont-know" name="radio" value="dont know">
+          <span class="inline-label">Don't know</span>
+        </label>
+    
+        <!-- comments textarea -->
+        <label class="row-label" for="comments">Tell us a little about yourself:</label>
+        <textarea id="comments" placeholder="Share your relevant qualifications and experiences here..."></textarea>
+    
+        <!-- submit button -->
+        <button id="submit" type="submit">Submit your application</button>
+    
+      </form>
+
+    <footer class="main_footer"></footer>
+    <script src="/source.js"> </script>
+</body>
+</html>
