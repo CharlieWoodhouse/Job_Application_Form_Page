@@ -86,7 +86,7 @@
           <span class="inline-label">Microsoft Teams</span>
         </label>
     
-        <!-- salary radio -->
+        <!-- salary expected -->
         <p class="row-label">Expected salary:</p>
     
         <label class="row-input small" for="below 50,000">
@@ -104,7 +104,7 @@
           <span class="inline-label">Don't know</span>
         </label>
     
-        <!-- comments textarea -->
+        <!-- about yourself -->
         <label class="row-label" for="comments">Tell us a little about yourself:</label>
         <textarea id="comments" placeholder="Share your relevant qualifications and experiences here..."></textarea>
     
